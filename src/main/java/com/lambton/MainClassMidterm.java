@@ -1,3 +1,4 @@
+
 package com.lambton;
 
 import java.util.ArrayList;
@@ -28,9 +29,15 @@ public class MainClassMidterm {
         Character freqStr = null;
         // call method.
         freqStr = lstObj.frequentChar("Snamm");
-        System.out.printf("Answer 4: " + "Most frequent letter in Snamm is: " + freqStr);
+        System.out.printf("Answer 4: " + "Most frequent letter in Snamm is:  \n" + freqStr);
 
         // 5.
+        String repStr = null;
+        // call method.
+        repStr = lstObj.replaceString("the dog jumped over the fence", "the", "that");
+        System.out.printf("Answer 5: " + "Replacement of string: the dog jumped over the fence is: " + repStr);
+
 
     }
 }
+

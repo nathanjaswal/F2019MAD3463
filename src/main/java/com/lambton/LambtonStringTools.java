@@ -34,6 +34,8 @@ public class LambtonStringTools {
 
     }
 
+    // 2.
+
     /*
     * 3.
     * here nameWithInitials is the method to convert any name containing
@@ -69,7 +71,7 @@ public class LambtonStringTools {
     }
 
     /*
-     * 3.
+     * 4.
      * here frequentChar is the method that returns
        the most frequent character in the string.
      * strVar is the argument variable to */
@@ -110,12 +112,16 @@ public class LambtonStringTools {
 
 
     /*
-     * 4.
+     * 5.
      */
-    public String replaceString(String strVar){
+    public String replaceString(String strVar1, String strVar2, String strVar3){
 
+        // converting the string in array of words.
+        if(strVar1.contains(strVar2)){
+            strVar1 = strVar1.replace(strVar2, strVar3);
+        }
 
-
+        return strVar1;
     }
 
 }
