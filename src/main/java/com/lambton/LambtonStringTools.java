@@ -93,7 +93,9 @@ public class LambtonStringTools {
             int asci = coll[i];
 
             String key = String.format("%d",asci);
-            if(countMap.get(key) == null){}else{
+            if(countMap.get(key) == null){
+                c = 0;
+            }else{
                 c = countMap.get(key);
             }
             c++;
